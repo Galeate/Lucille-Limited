@@ -6,6 +6,7 @@
     <meta name="description" content="Handmade custom wood and acrylic pens. Our pens are made one at at a time hand turned on a lathe.">
     <meta name="keywords" content="pens, wood, acrylic, pens, custom made, handmade, gift, lathe">
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/styleContact.css">
 	<title>Unique Custom Pens for Amazing Clients | Welcome</title>
 </head>
 <body>
@@ -34,30 +35,52 @@
     </div>
 <!----------End Header---------->
     <div id="banner">
-    	<div id="block-image">
-        	<img src="./images/img.banner.1.png">
-        </div>
         <div id="box-actions">
         	<div id="get-started">
-            <h2 id="get-started-title">Handmade Custom Wood & Acrylic Pens</h2>
-            <p>Our pens are made one at a time hand turned on a lathe. These are great to impress any client or customer for any occastion. You can select any of our premade pens in our current inventory, or special order pens to your specific needs.</p>
+            <h2 id="get-started-title">Contact Us</h2>
+            <p id="p1">As most of our pens are handmade and made to order, if you would like to order, please fill out the form below. We do have several in stock if interested.</p>
             </div>
-        	<div class="container">
-        		<div class="box">
-                	<img src="./images/soloPen.jpg">
-                	<h3>Inventory</h3>
-                </div>
-                <div class="box">
-                	<img src="./images/soloPen2.jpg">
-                    <h3>Special Order</h3>
-				</div>
-        	</div>
-        </div>
-        <div id="our-story">
-        <h1 id="our-story-title">Our Story</h1>
-        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien mauris, tempus in magna a, imperdiet iaculis dui. Morbi sollicitudin convallis turpis vitae tempus. Sed dui massa, venenatis euismod turpis ut, mollis dictum tellus. Suspendisse pretium nibh et purus congue ullamcorper. Fusce cursus ex ac risus varius, eget euismod arcu euismod. Ut a interdum lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id auctor orci, sit amet euismod odio. Praesent finibus nec purus at vestibulum. Nullam id tellus pharetra massa scelerisque ornare et in eros. Donec a imperdiet felis. Curabitur ornare massa tincidunt tempus eleifend. Aliquam erat volutpat. Etiam auctor tristique volutpat.</p>
         </div>
 	</div>
+  <div id="form-outer">
+  <form id="commentForm" method="GET">
+  <div class="rowTab">
+    <div class="labels">
+      <label id="name-label" for="name">* Name:</label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="text" name="name" id="name" class="inputField" placeholder="Enter your name" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="email" id="emailLabel">* Email:</label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="text" name="email" id="email" placeholder="Enter your email" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="phoneNumber" id="phoneNumberLabel">  Phone Number:</label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="tel" id="phoneNumber" max="10" class="inputField" placeholder="Enter phone number">
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="comments">Any comments or questions:</label>
+    </div>
+    <div class="rightTab">
+      <textarea name="comment" id="comments" class="input-field" placeholder="Enter your comments here"></textarea>
+    </div>
+  </div>
+  <div id="buttonSubmit">
+    <button type="submit" id="submit">Submit</button>
+  </div>
+</form>
+</div>
 	<div id="footer">
 		<div id="social-links" class="social-links">
         	<ul>
